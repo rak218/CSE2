@@ -10,8 +10,8 @@ public class FourDigits
         System.out.print("Enter your number :");
         Scanner myScanner=new Scanner(System.in);
         double num= myScanner.nextDouble();
-        double newNum= num-((int)num);
-        newNum*=10000;
+        double newNum= num-((int)num);// isolated decimal
+        newNum*=10000;//turns to 
         if(newNum<10)
         System.out.print("000");
         else if(newNum<100)
